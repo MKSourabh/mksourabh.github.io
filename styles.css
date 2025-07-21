@@ -1,252 +1,92 @@
-Skip to content
-Chat history
-
-You said:
-Uploaded image
-ChatGPT said:
-
-The screenshot you uploaded shows a profile page with the following details filled in:
-
-🔹 Basic Info
-Name: KireetiSourabhM
-
-Gender: Male
-
-Location: United States
-
-Birthday: December 12, 2000
-
-Summary: Not filled in
-
-Website: Not filled in
-
-GitHub: github.com/MKSourabh
-
-LinkedIn: linkedin.com/in/mkireetisourabh
-
-X (Twitter): x.com/KireetiSourabhM
-
-🔹 Experience
-Work: Not filled in
-
-🔹 Education
-University of North Texas - Masters of Science
-
-Duration: 08/2022 – 05/2024
-
-🔹 Skills
-Technical Skills: python, c++, java, c#
-
-Let me know if you'd like help:
-
-Writing the summary section
-
-Adding your website/portfolio
-
-Filling in work experience
-
-Improving the skills section with tools, frameworks, or certifications
-
-Want me to draft a perfect summary for this profile?
-
-You said:
-fill it
-ChatGPT said:
-
-Here's a strong, clean Summary section you can paste directly into your profile:
-
-Summary:
-Passionate software developer with a Master’s in Computer Science from the University of North Texas. Skilled in Python, C++, Java, and C#, with hands-on experience in building full-stack applications, AI-driven tools, and system-level programming. Strong problem-solver with a creative edge—whether it’s developing custom solutions or enhancing user experience. Actively contributing to open-source projects and always eager to learn, collaborate, and innovate.
-
-Want a more casual, bold, or one-line version too?
-
-You said:
-yes
-ChatGPT said:
-
-Here are three alternate versions of your Summary section to choose from:
-
-🔹 Casual Version
-I’m a software developer who loves building smart, efficient solutions—whether it’s coding AI tools, writing system-level logic, or crafting smooth UI experiences. With a Master’s in CS and a strong grip on Python, Java, C++, and C#, I’m always chasing the next cool challenge.
-
-🔹 Bold & Impactful Version
-Builder. Problem Solver. Code Whisperer.
-Armed with a Master’s degree in CS and fluent in Python, C++, Java, and C#, I create impactful tech—from full-stack apps to AI-powered tools. I don’t just write code—I deliver solutions.
-
-🔹 One-Liner Version
-Software developer with a Master’s in CS, turning ideas into code using Python, C++, Java, and C#—fast, clean, and with purpose.
-
-Let me know if you want a version that highlights a specific project or interest (like AI, UI/UX, or open source).
-
-You said:
-do i have a website
-ChatGPT said:
-
-Right now, based on the screenshot you shared, the Website field is empty on your profile.
-
-But I remember you have one hosted on GitHub Pages:
-🔗 https://sandyadesignerboutique.github.io/Store/
-
-If that’s your personal portfolio or store project, you can add it there. If you want a clean personal site (like a dev portfolio), I can help you set up one under your GitHub account too (e.g., https://mksourabh.github.io).
-
-Let me know:
-
-Want to use the boutique store site as your main site?
-
-Or want to build a proper dev portfolio?
-
-You said:
-Uploaded image
-when i go to this page "https://mksourabh.github.io" it is giving me this
-ChatGPT said:
-
-You're seeing the 404 error because there's no GitHub Pages site currently published at https://mksourabh.github.io.
-
-Here’s how to fix that and publish a personal site:
-
-✅ Option 1: Publish an Existing Repository
-If you already have a project/repo (like a portfolio or static site), follow this:
-
-Go to your GitHub: https://github.com/MKSourabh
-
-Open the repo you want to make live.
-
-Click on Settings → scroll down to Pages (left sidebar).
-
-Under "Source", choose:
-
-Branch: main (or master)
-
-Folder: / (root) or /docs depending on where your index.html is
-
-Click Save.
-
-After a few seconds, your site will be live at:
-
-https://MKSourabh.github.io/<repo-name>
-✅ Option 2: Create a Dedicated Personal Website
-If you want a clean personal dev portfolio site like https://mksourabh.github.io, do this:
-
-Create a new repo named exactly:
-
-mksourabh.github.io
-Push or upload your portfolio files (must include index.html).
-
-GitHub will automatically host it at https://mksourabh.github.io.
-
-Want me to generate a basic portfolio template for you to upload right away?
-
-You said:
-yes
-ChatGPT said:
-
-Here’s a clean, responsive personal portfolio template ready to upload to a GitHub repo named mksourabh.github.io.
-
-✅ Step-by-Step Instructions to Use It
-Create a new GitHub repository named:
-mksourabh.github.io
-
-Upload the following files:
-
-index.html
-
-style.css
-
-GitHub will automatically host your portfolio at:
-👉 https://mksourabh.github.io
-
-📁 index.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Kireeti Sourabh | Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-  <header>
-    <h1>Kireeti Sourabh</h1>
-    <p>Software Developer | Python · C++ · Java · C#</p>
-  </header>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I’m a software developer with a Master's in Computer Science from the University of North Texas. I enjoy building efficient, full-stack solutions and AI-powered tools. Passionate about learning and creating.
-    </p>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>ExpressAI</strong> – Emotion & Gender Detection using face-api.js</li>
-      <li><strong>Word Picker</strong> – Tool to extract custom words from text</li>
-      <li><strong>Sandya Designer Boutique Website</strong> – Built and deployed custom e-commerce site</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:kireetisourabhmangalampally@gmail.com">kireetisourabhmangalampally@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/MKSourabh" target="_blank">MKSourabh</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/mkireetisourabh" target="_blank">mkireetisourabh</a></p>
-  </section>
-</body>
-</html>
-🎨 style.css
-body {
-  font-family: Arial, sans-serif;
+/* Reset default browser styles */
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background: #f8f9fa;
-  color: #333;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f7fa;
+  color: #222;
+  line-height: 1.7;
+  min-height: 100vh;
+  padding: 0 10vw;
 }
 
 header {
-  background: #007bff;
-  color: white;
-  padding: 2rem;
+  background: #fff;
+  padding: 2.5rem 2rem 2rem 2rem;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(60, 60, 100, 0.09);
+  margin: 2.5rem 0 2rem 0;
   text-align: center;
 }
 
+header h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #3575ec;
+  margin-bottom: 0.6rem;
+}
+
+header p {
+  font-size: 1.13rem;
+  margin-bottom: 0.6rem;
+}
+
 section {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(60, 60, 100, 0.06);
+  margin-bottom: 2rem;
   padding: 2rem;
-  max-width: 800px;
-  margin: auto;
 }
 
 h2 {
-  border-bottom: 2px solid #007bff;
-  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #3575ec;
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 1.4rem;
 }
 
 a {
-  color: #007bff;
+  color: #3575ec;
   text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
 }
 
-a:hover {
+a:hover, a:focus {
+  color: #274b8c;
   text-decoration: underline;
 }
-Let me know if you want:
 
-Dark mode toggle
+em {
+  color: #555;
+  font-size: 1rem;
+}
 
-Projects section with GitHub links
-
-Hosted live preview with screenshots
-
-Contact form integration via FormSubmit
-
-I'll zip these files and give you a downloadable link if needed too.
-
-
-
-
-
-
-
-
-No file chosenNo file chosen
-ChatGPT can make mistakes. Check important info.
+@media (max-width: 800px) {
+  body {
+    padding: 0 3vw;
+  }
+  header, section {
+    padding: 1.2rem;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.15rem;
+  }
+}
